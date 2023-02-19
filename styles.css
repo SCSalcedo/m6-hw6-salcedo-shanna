@@ -1,0 +1,91 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background: url('../images/bananas.png');
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 0  12px;
+    justify-content: center;
+    display: flex;
+    align-items: flex-start
+    
+}
+
+header{
+    background-color: rgb(185, 144, 144);
+    padding: 15px 0;
+    border-bottom: 3px solid rgb(105, 94, 6);
+}
+
+
+nav{
+   display: flex;
+   max-width: 75%;
+
+}
+
+.name, .link {
+    color: antiquewhite;
+    text-decoration: none;
+
+
+}
+.link {
+    margin: 0 4px;
+    padding: 10px;
+    background-color: rgb(245, 232, 177);
+    color: rgb(105, 94, 6);
+    box-shadow: 8px 8px 10px black
+    
+
+}
+.name{
+    font-size: 30px;
+   padding-right: 175px;
+    
+
+}
+main{
+    max-width: 75%;
+    background-color: rgb(245, 232, 177);
+    padding: 10px;
+}
+main img {
+    float: left;
+    margin: 10px 15px 10px auto;
+    box-shadow: 5px 5px 10px;
+}
+
+.aside{
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(245, 232, 177);
+    box-shadow: 10px 10px 10px black;
+  
+}
+.aside h2{
+    font-size: 25px;
+}
+
+.aside img{
+    box-shadow: 10px 10px 10px black;  
+}
+
+
+footer{
+    background-color: rgb(185, 144, 144);
+    text-align: center;
+    padding:  10px;
+    border-top: 3px solid rgb(105, 94, 6);
+    margin-top: auto;
+} 
